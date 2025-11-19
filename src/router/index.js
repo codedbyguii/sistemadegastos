@@ -8,7 +8,7 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/dashboard.vue')
     }
-  ],
+  ]
 })
 
 export default router
