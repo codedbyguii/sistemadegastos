@@ -1,5 +1,5 @@
 <script setup>
-import layoutDefault from "./layouts/telaPrincipal.vue";
+import layoutDefault from "./layouts/dashboard/dashboardSpending.vue";
 </script>
 
 <template>

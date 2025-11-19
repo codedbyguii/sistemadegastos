@@ -10,7 +10,7 @@
         <details>
           <summary>Opções</summary>
           <ul class="bg-base-100 rounded-t-none p-2">
-            <li><a href="#">Gastos</a></li>
+            <li><a href="/src/layouts/dashboard/dashboardSpending.vue">Gastos</a></li>
           </ul>
         </details>
       </li>
