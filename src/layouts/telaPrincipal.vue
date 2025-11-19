@@ -1,20 +1,20 @@
 <template>
 
-  <div class="navbar bg-base-200">
-  <div class="ps-4">
-    <a class="text-lg font-bold">Controle de Gastos</a>
+  <div class="navbar bg-base-100 shadow-sm">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">Controle de Gastos</a>
   </div>
-  <div class="flex grow justify-end px-2">
-    <div class="flex items-stretch">
-      <div class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn btn-ghost rounded-field">=</div>
-        <ul
-          tabindex="-1"
-          class="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm">
-          <li><a>Gastos</a></li>
-        </ul>
-      </div>
-    </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li>
+        <details>
+          <summary>Opções</summary>
+          <ul class="bg-base-100 rounded-t-none p-2">
+            <li><a href="#">Gastos</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
   </div>
 </div>
 
